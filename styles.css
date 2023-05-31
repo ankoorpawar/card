@@ -1,0 +1,50 @@
+body {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*text-align: center;*/
+    /*color: blue;*/
+}
+
+.profile-img {
+    border-radius: 15px;
+    width: 150px;
+}
+
+.profile-img:hover {
+    box-shadow: 5px 5px 5px #0096c7;
+}
+
+.card-container {
+    border: 1px solid black;
+    border-radius: 15px;
+    background: #e63946;
+    padding: 20px;
+    display: flex;
+    width: 400px;
+    margin: auto;
+    color: #2b2839;
+    text-align: center;
+    justify-content: space-around;
+    border-bottom: 10px solid #0096c7;
+}
+h3:hover {
+    text-shadow: 2px 2px 2px #0096c7;
+}
+
+.pricing {
+    display: flex;
+}
+
+.red-circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background: #BC002D;
+
+    /*
+    Challenge:
+    Translate this into using the margin shorthand.
+    */
+    /*margin: 40px 0 0 100px;*/
+    margin: 40px auto;
+}
